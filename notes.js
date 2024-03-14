@@ -68,7 +68,7 @@ const readNote = (title) => {
     const found_note = notes.find((note) => title === note.title)
     if(found_note){
         console.log("Title : ", found_note.title)
-        console.log("Bode : \n", found_note.body)
+        console.log("Body : \n", found_note.body)
     }
     else{
 
